@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Papers We Love</title>
+  <subtitle>A repository of academic computer science research papers and a community who loves reading them.</subtitle>
+  <id>http://papers-we-love.github.io/</id>
+  <link href="http://papers-we-love.github.io/"/>
+  <link href="http://papers-we-love.github.io/feed.xml" rel="self"/>
+  <updated>2017-11-05T19:00:00-05:00</updated>
+  <author>
+    <name>Papers We Love</name>
+  </author>
+  <entry>
+    <title>Jessie Frazelle on SCONE: Secure Linux Containers with Intel SGX</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2017/video/jessie-frazelle-scone-secure-linux-containers-with-intel-sgx/"/>
+    <id>http://papers-we-love.github.io/2017/video/jessie-frazelle-scone-secure-linux-containers-with-intel-sgx/</id>
+    <published>2017-11-05T19:00:00-05:00</published>
+    <updated>2017-11-09T13:00:07-05:00</updated>
+    <author>
+      <name>Andrew Gross</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/3UYczEYrxuY" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="new-york---october-9-2017"&gt;New York - October 9, 2017&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Meetup:&lt;/strong&gt; &lt;a href="https://www.meetup.com/papers-we-love/events/242066112/"&gt;https://www.meetup.com/papers-we-love/events/242066112/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf"&gt;SCONE: Secure Linux Containers with Intel SGX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slides:&lt;/strong&gt; &lt;a href="https://speakerdeck.com/paperswelove/jessie-frazelle-on-scone-secure-linux-containers-with-intel-sgx#"&gt;Jessie Frazelle on SCONE: Secure Linux Containers with Intel SGX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Audio:&lt;/strong&gt; &lt;a href="https://www.mixcloud.com/paperswelove/papers-we-love-10092017-jessie-frazelle-scone-secure-linux-containers/"&gt;Jessie Frazelle on SCONE: Secure Linux Containers with Intel SGX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Containers are the latest infrastructure trend. In 2016, the &lt;a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf"&gt;SCONE paper&lt;/a&gt; was written and presented at the &lt;a href="https://www.usenix.org/conference/osdi16"&gt;USENIX Symposium on Operating Systems Design and Implementation&lt;/a&gt;. It outlined how to use &lt;a href="https://en.wikipedia.org/wiki/Software_Guard_Extensions"&gt;Intel Secure Enclaves&lt;/a&gt; to guard containers against attack. Containers are built on the kernel primitives cgroups and namespaces with additional LSM (Linux Security Module) layers on top, such as AppArmor, SELinux, and seccomp. Intel SGX protects code from modification by using protected areas of memory known as enclaves. With containers and adoption of cloud on the rise, this paper continues to be on the cutting edge of what is to come. Some cloud providers are now starting to expose hardware specific features like GPU and SGX, which would make running containers with Intel's SGX trusted execution a reality in the cloud. With Intel's SGX, you can have a container's process shielded from access by other programs. We'll explore how realistic this is today and in the future as well as what benefits this would have to the security of containers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://blog.jessfraz.com/"&gt;Jessie Frazelle&lt;/a&gt; works with Linux and Containers at Microsoft. She loves all things involving Linux namespaces and cgroups and is probably most well known for running desktop applications in containers. Jessie has been a maintainer of Docker and a contributor to RunC, Kubernetes, Linux, and Golang, among other projects, maintained the AppArmor, Seccomp, and SELinux bits in Docker, and is quite familiar with locking down containers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;amp;mini=1&amp;amp;feed=%2Fpaperswelove%2Fpapers-we-love-10092017-jessie-frazelle-scone-secure-linux-containers%2F" frameborder="0"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe class="video" allowfullscreen="true" allowtransparency="true" frameborder="0" height="596" mozallowfullscreen="true" src="//speakerdeck.com/player/2960fbf0364f40e2a012c119c02ca239" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="710"&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
+&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+  </entry>
+  <entry>
+    <title>November Meetups</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2017/news/november-meetups/"/>
+    <id>http://papers-we-love.github.io/2017/news/november-meetups/</id>
+    <published>2017-10-31T20:00:00-04:00</published>
+    <updated>2017-11-15T13:00:26-05:00</updated>
+    <author>
+      <name>Joshua</name>
+    </author>
+    <content type="html">&lt;p&gt;We have another great line-up of meet-ups scheduled for November across a number of our chapters:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Toronto 11/1&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Toronto/events/244292363/"&gt;#24 Leo Zovic on Pursue Robust Indefinite Scalability&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Seattle 11/2&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Seattle/events/243607249/"&gt;PWL #37: Argus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;San Diego 11/2&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-San-Diego/events/243859513/"&gt;Raft: In Search of an Understandable Consensus Algorithm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chattanooga 11/7&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Chattanooga/events/244515378/"&gt;Bill Brock on Zerocash: Decentralized Anonymous Payments from Bitcoin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Columbus 11/9&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Columbus/events/244378487/"&gt;Lunch: Machine Learning: The High Interest Credit Card of Technical Debt&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Belfast 11/11&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Belfast/events/243947973/"&gt;PWL Book Club #2 - "Category Theory For Programmers"&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Belfast 11/15&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Belfast/events/243093533/"&gt;Papers We Love Belfast #5 - Knuth, Crypto and more!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;San Francisco 11/16&lt;/strong&gt;: &lt;a href="https://www.meetup.com/papers-we-love-too/events/243466755/"&gt;Dave Cheney on What Have We Learned from the PDP-11?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Columbus 11/23&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Columbus/events/tcnwxmywpbfc/"&gt;Lunch: Machine Learning: The High Interest Credit Card of Technical Debt&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Berlin 11/23&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Berlin/events/244512205/"&gt;Martin Kavalar &amp;amp; TBA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;London 11/23&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-London/events/244864770/"&gt;Tom Hall On "Erasure Code with SHEC"&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Denver 11/23&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Denver/events/fgbdrmywpbfc/"&gt;TBD, but probably an awesome paper :-)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vienna 11/27&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Vienna/events/243885915/"&gt;November: IPFS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Montréal 11/29&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Montreal/events/244906577/"&gt;Dual Contouring of Hermite Data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Arlington 11/29&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-DC-NoVA/events/242020472/"&gt;Rotational Invariance in Convolutional Neural Networks&lt;/a&gt;
+ &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to give special thanks to our Platinum sponsor &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt;. Join us in St. Louis for &lt;a href="http://pwlconf.org/"&gt;PWLConf 2017&lt;/a&gt;!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>October Meetups</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2017/news/october-meetups/"/>
+    <id>http://papers-we-love.github.io/2017/news/october-meetups/</id>
+    <published>2017-09-30T20:00:00-04:00</published>
+    <updated>2017-10-02T07:00:30-04:00</updated>
+    <author>
+      <name>Joshua</name>
+    </author>
+    <content type="html">&lt;p&gt;We have another great line-up of meet-ups scheduled for October across a number of our chapters:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vienna 10/2&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Vienna/events/242952984/"&gt;October: Bitcoin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chattanooga 10/3&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Chattanooga/events/243650192/"&gt;Jacob Kobernik on Blockchain: A Graph Primer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Göteborg 10/5&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Gothenburg/events/243458363/"&gt;Dan Rosén on "Algebraic Effects" at TimeEdit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Seattle 10/5&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Seattle/events/242431931/"&gt;PWL #36: Deep Speech&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;San Diego 10/5&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-San-Diego/events/241581472/"&gt;HyperLogLog in Practice: Algorithmic Engineering of a State of The Art…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New York  10/9&lt;/strong&gt;: &lt;a href="https://www.meetup.com/papers-we-love/events/242066112/"&gt;Jessie Frazelle on SCONE: Secure Linux Containers with Intel SGX &amp;amp; a PWLMini&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Toronto 10/11&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Toronto/events/243723651/"&gt;#23 Yawar Amin on Lightweight Static Capabilities&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Columbus 10/12&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Columbus/events/243842116/"&gt;Papers We Love Lunches: The Humble Programmer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Columbus 10/12&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Columbus/events/243568135/"&gt;Papers We Love Lunches: The Humble Programmer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;London 10/19&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-London/events/243775403/"&gt;Simon Peyton Jones: "Getting from A to B: fast route-finding on slow computers"&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fairfax 10/25&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-DC-NoVA/events/241227602/"&gt;Recursive Functions of Symbolic Expressions and Their Computation by Machine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Columbus 10/26&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Columbus/events/tcnwxmywnbjc/"&gt;Papers We Love Lunches: The Humble Programmer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Denver 10/26&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Denver/events/fgbdrmywnbjc/"&gt;TBD, but probably an awesome paper :-)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Denver 10/26&lt;/strong&gt;: &lt;a href="https://www.meetup.com/Papers-We-Love-Denver/events/239936931/"&gt;Harry Brumleve -&amp;gt; A Universal Modular Actor Formalism for AI&lt;/a&gt;
+ &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to give special thanks to our Platinum sponsor &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt;. Join us in St. Louis for &lt;a href="http://pwlconf.org/"&gt;PWLConf 2017&lt;/a&gt;!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Gershom Bazerman on Homological Computations for Term Rewriting Systems</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2017/video/gershom-bazerman-homological-computations/"/>
+    <id>http://papers-we-love.github.io/2017/video/gershom-bazerman-homological-computations/</id>
+    <published>2017-09-28T20:00:00-04:00</published>
+    <updated>2017-10-02T13:00:08-04:00</updated>
+    <author>
+      <name>Lydia Gu</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WdawrT-6Qzk" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="new-york---august-31-2017"&gt;New York - August 31, 2017&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Meetup:&lt;/strong&gt; &lt;a href="https://www.meetup.com/papers-we-love/events/242063907/"&gt;https://www.meetup.com/papers-we-love/events/242063907/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href="http://math.univ-lyon1.fr/~malbos/Art/hcTRS.pdf"&gt;Homological Computations for Term Rewriting Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slides:&lt;/strong&gt; &lt;a href="https://speakerdeck.com/paperswelove/gershom-bazerman-on-homological-computations-for-term-rewriting-systems"&gt;Gershom Bazerman on Homological Computations for Term Rewriting Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Audio:&lt;/strong&gt; &lt;a href="https://www.mixcloud.com/paperswelove/gershom-bazerman-on-homological-computations-for-term-rewriting-systems/"&gt;Gershom Bazerman on Homological Computations for Term Rewriting Systems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;
+In 1987, C. Squier wrote "&lt;a href="http://www.sciencedirect.com/science/article/pii/0022404987901290"&gt;Word problems and a homological finiteness condition for monoids&lt;/a&gt;," which proved a fascinating result that spawned an entire field, but which is little known outside of it. The great mathematical popularizer and category theorist &lt;a href="https://en.wikipedia.org/wiki/John_C._Baez"&gt;John Baez sketched the ideas in 1995&lt;/a&gt;. We consider "word problems," which ask the equality of two terms modulo a set of equivalences, restrict ourselves to simple objects called "monoids" that many functional programmers are fond of, and ask about the decidability of equality over them. This is the same as looking at strings and asking when they are equal if you consider mappings that equate some contiguous sequences with other contiguous sequences. (Such problems arise ubiquitously in interesting computational problems – consider for example the equivalence of sequences of patches, or of edit actions across a distributed system). The way computer scientists would think to answer this is to see if you can rewrite both sides of the equation into a single canonical form that you can compare for equality. Indeed, that's what Don Knuth and Peter Bendix did, and the result is the Knuth-Bendix algorithm, used in theorem provers and many other applications.&lt;/p&gt;
+
+&lt;p&gt;But just how universal is the Knuth-Bendix algorithm? Well, Squier showed that there are finite monoids with decidable word problems that cannot be turned into such canonical rewrite procedures as Knuth-Bendix gives us. And furthermore, he showed that this result derives from considering our systems using the tools of modern algebraic topology! In particular, he showed how to calculate a homology of a monoid presentation.&lt;/p&gt;
+
+&lt;p&gt;Ever since then, people have been seeking to generalize Squier's result in new and exciting ways. One of the niftiest and newest was presented last year at &lt;a href="http://fscd2016.dcc.fc.up.pt/programme/acceptedPapers/"&gt;FSCD&lt;/a&gt;, &lt;a href="http://math.univ-lyon1.fr/~malbos/Art/hcTRS.pdf"&gt;this talk's paper&lt;/a&gt;, which I love, but do not claim to fully understand. Instead of a monoid, we consider an arbitrary "algebraic theory" (say, a syntax tree of a programming language with some equalities between certain forms of trees). And we now ask not about the word problem, but just the minimum number of equalities necessary to present such a theory. The answer, which can be computed with an algorithm, comes from even more, and more generalized homology.  The purpose of this talk is to make the above understandable to a lay audience, to sketch some idea of how to think about things that arise in computer science topologically, and to provide an invitation to basic notions of &lt;a href="https://en.wikipedia.org/wiki/Homology_(mathematics)"&gt;homology&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://gbaz.github.io/"&gt;Gershom Bazerman&lt;/a&gt; is a software developer in New York. He is an organizer of the &lt;a href="https://www.meetup.com/NY-Haskell/"&gt;NY Haskell Users Group&lt;/a&gt;, the &lt;a href="https://groups.google.com/forum/#!forum/hott-nyc"&gt;NY Homotopy&lt;/a&gt; (or Topos) Theory Reading group, and the &lt;a href="http://www.composeconference.org/"&gt;Compose conference&lt;/a&gt; among other things. He's written some useful and used Haskell libraries, occasionally contributed to others, as well as to the PureScript compiler, and has also helped maintain Haskell infrastructure for some time. He likes reading complicated things and trying to understand and explain them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;amp;mini=1&amp;amp;feed=%2Fpaperswelove%2Fgershom-bazerman-on-homological-computations-for-term-rewriting-systems%2F" frameborder="0"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe class="video" allowfullscreen="true" allowtransparency="true" frameborder="0" height="596" mozallowfullscreen="true" src="//speakerdeck.com/player/779c99feecc44f9da4ad89347ede32b4" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="710"&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
+&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Stephen Tu on Least Squares Policy Iteration</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2017/video/stephen-tu-policy-iteration/"/>
+    <id>http://papers-we-love.github.io/2017/video/stephen-tu-policy-iteration/</id>
+    <published>2017-09-28T20:00:00-04:00</published>
+    <updated>2017-10-02T13:00:08-04:00</updated>
+    <author>
+      <name>Lydia Gu</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WpHPMqzufJY" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="new-york---august-31-2017"&gt;New York - August 31, 2017&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Meetup:&lt;/strong&gt; &lt;a href="https://www.meetup.com/papers-we-love/events/242063907/"&gt;https://www.meetup.com/papers-we-love/events/242063907/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href="https://users.cs.duke.edu/~parr/jmlr03.pdf"&gt;Least Squares Policy Iteration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slides:&lt;/strong&gt; &lt;a href="https://speakerdeck.com/paperswelove/stephen-tu-on-least-squares-policy-iteration"&gt;Stephen Tu on Least Squares Policy Iteration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Audio:&lt;/strong&gt; &lt;a href="https://www.mixcloud.com/paperswelove/stephen-tu-on-least-squares-policy-iteration/"&gt;Stephen Tu on Least Squares Policy Iteration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Policy iteration is a classic dynamic programing algorithm for solving a Markov Decision Process (MDP). In policy iteration, the algorithm alternates between two steps: 1) a policy evaluation step which, given the current policy, computes the state-action value function (commonly known as the Q-function) for the policy, and 2) a policy improvement step, which uses the Q-function to greedily improve the current policy. When the number of states and actions of the MDP is finite and small, policy iteration performs well and comes with nice theoretical guarantees. However, when the state and action spaces are large (possibly continuous), policy iteration becomes intractable, and approximate methods for solving MDPs must be used.&lt;/p&gt;
+
+&lt;p&gt;Least Squares Policy Iteration (LSPI) is one method for approximately solving an MDP. The key idea here is to approximate the Q-function as a linear functional in a lifted, higher dimensional space, analogous to the idea of feature maps in supervised learning. Plugging this approximation into the Bellman equation gives a tractable linear system of equations to solve for the policy evaluation step. Furthermore, the policy improvement step remains the same as before.&lt;/p&gt;
+
+&lt;p&gt;This talk describes LSPI and some of its subtleties. One subtlety arises due to the fact that the Bellman operator is not necessarily invariant on our approximate function class, and hence an extra projection step is typically used to minimize the Bellman residual after projecting back on the function space. Furthermore, in order to build intuition for LSPI, I will also talk about what the LSPI algorithm does in the context of a well studied continuous optimal control problem known as the Linear Quadratic Regulator (LQR).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://people.eecs.berkeley.edu/~stephentu/"&gt;Stephen Tu&lt;/a&gt; is a PhD student in the EECS department at UC Berkeley, studying problems in the intersection of optimization, control theory, and statistics. This summer, he is interning at the Google Brain team in NYC, which has sparked his interest in reinforcement learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;amp;mini=1&amp;amp;feed=%2Fpaperswelove%2Fstephen-tu-on-least-squares-policy-iteration%2F" frameborder="0"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe class="video" allowfullscreen="true" allowtransparency="true" frameborder="0" height="596" mozallowfullscreen="true" src="//speakerdeck.com/player/d1ca498f1955406dac8ebb85ece952ad" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="710"&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
+&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Wes Chow on Off-the-Record Communication, or, Why Not To Use PGP</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2017/video/wes-chow-off-the-record-communication/"/>
+    <id>http://papers-we-love.github.io/2017/video/wes-chow-off-the-record-communication/</id>
+    <published>2017-09-15T00:00:00Z</published>
+    <updated>2017-09-15T13:00:09-04:00</updated>
+    <author>
+      <name>Lydia Gu</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9JDLbdbFnk8" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="new-york---july-19-2017"&gt;New York - July 19, 2017&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Meetup:&lt;/strong&gt; &lt;a href="https://www.meetup.com/papers-we-love/events/241525902/"&gt;https://www.meetup.com/papers-we-love/events/241525902/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href="https://otr.cypherpunks.ca/otr-wpes.pdf"&gt;Off-the-Record Communication, or, Why Not To Use PGP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slides:&lt;/strong&gt; &lt;a href="https://speakerdeck.com/paperswelove/wes-chow-on-off-the-record-communication-or-why-not-to-use-pgp"&gt;Wes Chow on Off-the-Record Communication, or, Why Not To Use PGP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Audio:&lt;/strong&gt; &lt;a href="https://www.mixcloud.com/paperswelove/wes-chow-on-off-the-record-communication-or-why-not-to-use-pgp/"&gt;Wes Chow on Off-the-Record Communication, or, Why Not To Use PGP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your intrepid reporter goes to a private location and meets with a key source who wishes to remain anonymous and off the record. The reporter understands that all information she learns from the source must be validated elsewhere and not directly quoted (private), that the source is who he says he is (authenticated), and that should their conversation become public they could both plausibly deny having said any of the recorded words (repudiable). How do we construct a digital version of an IRL meeting?&lt;/p&gt;
+
+&lt;p&gt;Nikita Borisov, Ian Goldberg, and Eric Brewer devise a communication protocol in Off-the-Record Communication, or Why Not To Use PGP that provides all of the above mentioned properties, as well as forward-secrecy (breaking the encryption on one message doesn’t give an attacker keys to past or future messages). Wes will review the OTR protocol and its clever collection of strong and purposefully weak cryptographic techniques that form the basis of the &lt;a href="https://whispersystems.org/"&gt;Signal&lt;/a&gt; private messaging app.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Wes Chow (&lt;a href="https://twitter.com/weschow"&gt;@weschow&lt;/a&gt;) has a B.S. in Electrical Engineering &amp;amp; Computer Science from UC Berkeley. He spent eight years building technical infrastructure for high frequency trading shops. One day, he stared into his dark soul and realized he needed to move into the startup light. Thus S7 Labs sprang into being, and he led teams that built Storybox, a Seedcamp NY finalist, and Songza Radio, subsumed by Google Music. He's now at Chartbeat serving out his term as CTO.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Audio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&amp;amp;mini=1&amp;amp;feed=%2Fpaperswelove%2Fwes-chow-on-off-the-record-communication-or-why-not-to-use-pgp%2F" frameborder="0"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe class="video" allowfullscreen="true" allowtransparency="true" frameborder="0" height="596" mozallowfullscreen="true" src="//speakerdeck.com/player/c2037b234e5f461dad8ccbd508914232" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="710"&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
+&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+  </entry>
+</feed>
